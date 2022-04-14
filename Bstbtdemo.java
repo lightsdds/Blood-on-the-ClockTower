@@ -47,6 +47,10 @@ public class Bstbtdemo {
     private JPopupMenu characters=new JPopupMenu();
     private JPopupMenu ability=new JPopupMenu();//技能
     private JPopupMenu state=new JPopupMenu();//状态
+    private JCheckBox health=new JCheckBox("健康",true);
+    private JCheckBox drunkenness=new JCheckBox("醉酒",false);
+    private JCheckBox poisoning=new JCheckBox("中毒",false);
+    private JCheckBox death=new JCheckBox("死亡",false);
     private JMenu villagers=new JMenu("村民");
     private JMenu outsiders=new JMenu("外来者");
     private JMenu pawns=new JMenu("爪牙");

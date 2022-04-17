@@ -1,4 +1,4 @@
-package BSTBT;
+package com.BSTBT;
 import javax.swing.*;
 import javax.swing.event.MenuDragMouseEvent;
 import javax.swing.event.MouseInputAdapter;
@@ -696,28 +696,18 @@ public class Bstbtdemo {
         JButton monk=new JButton("释放技能");
         JComboBox aimMonk= new JComboBox<>();//按钮要释放事件
         //添加选择角色
-        aimMonk.addItem("洗衣妇");
-        aimMonk.addItem("图书馆员");
-        aimMonk.addItem("僧侣");
-        aimMonk.addItem("调查员");
-        aimMonk.addItem("养鸦人");
-        aimMonk.addItem("厨师");
-        aimMonk.addItem("圣女");
-        aimMonk.addItem("共情者");
-        aimMonk.addItem("杀手");
-        aimMonk.addItem("预言家");
-        aimMonk.addItem("士兵");
-        aimMonk.addItem("送葬者");
-        aimMonk.addItem("镇长");
-        aimMonk.addItem("管家");
-        aimMonk.addItem("隐士");
-        aimMonk.addItem("酒鬼");
-        aimMonk.addItem("圣徒");
-        aimMonk.addItem("毒师");
-        aimMonk.addItem("男爵");
-        aimMonk.addItem("间谍");
-        aimMonk.addItem("荡妇");
-        aimMonk.addItem("小恶魔");
+        aimMonk.addItem("1");
+        aimMonk.addItem("2");
+        aimMonk.addItem("3");
+        aimMonk.addItem("4");
+        aimMonk.addItem("5");
+        aimMonk.addItem("6");
+        aimMonk.addItem("7");
+        aimMonk.addItem("8");
+        aimMonk.addItem("9");
+        aimMonk.addItem("10");
+        aimMonk.addItem("11");
+        aimMonk.addItem("12");
         aimMonk.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e) {
               String chari=e.getActionCommand();
@@ -740,28 +730,20 @@ public class Bstbtdemo {
         slayerAbility.add(new JTextArea("每局游戏限一次，白天是，杀手可以公开选择一名玩家发动击杀，若该玩家为恶魔，则击杀有效"),BorderLayout.SOUTH);
         JButton slayer=new JButton("释放技能");
         JComboBox aimSlayer=new JComboBox<>();//按钮要释放事件
-        aimSlayer.addItem("洗衣妇");
-        aimSlayer.addItem("图书馆员");
-        aimSlayer.addItem("僧侣");
-        aimSlayer.addItem("调查员");
-        aimSlayer.addItem("养鸦人");
-        aimSlayer.addItem("厨师");
-        aimSlayer.addItem("圣女");
-        aimSlayer.addItem("共情者");
-        aimSlayer.addItem("杀手");
-        aimSlayer.addItem("预言家");
-        aimSlayer.addItem("士兵");
-        aimSlayer.addItem("送葬者");
-        aimSlayer.addItem("镇长");
-        aimSlayer.addItem("管家");
-        aimSlayer.addItem("隐士");
-        aimSlayer.addItem("酒鬼");
-        aimSlayer.addItem("圣徒");
-        aimSlayer.addItem("毒师");
-        aimSlayer.addItem("男爵");
-        aimSlayer.addItem("间谍");
-        aimSlayer.addItem("荡妇");
-        aimSlayer.addItem("小恶魔");
+        aimSlayer.addItem("1");
+        aimSlayer.addItem("2");
+        aimSlayer.addItem("3");
+        aimSlayer.addItem("4");
+        aimSlayer.addItem("5");
+        aimSlayer.addItem("6");
+        aimSlayer.addItem("7");
+        aimSlayer.addItem("8");
+        aimSlayer.addItem("9");
+        aimSlayer.addItem("10");
+        aimSlayer.addItem("11");
+        aimSlayer.addItem("12");
+
+
         aimSlayer.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e) {
               String chari=e.getActionCommand();
@@ -989,6 +971,8 @@ public class Bstbtdemo {
                 }
             }
         });
+        memberName.pack();
+        rulesShowing.pack();
         nomination.add(nominate,BorderLayout.CENTER);
         nominationOverReturning.add(returningMagicCodex);
         nominationOverReturning.add(nominatingOver);
